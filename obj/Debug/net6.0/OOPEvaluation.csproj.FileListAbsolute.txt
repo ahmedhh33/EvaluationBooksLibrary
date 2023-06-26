@@ -1,0 +1,15 @@
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.csproj.AssemblyReference.cache
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.AssemblyInfoInputs.cache
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.AssemblyInfo.cs
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\bin\Debug\net6.0\OOPEvaluation.exe
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\bin\Debug\net6.0\OOPEvaluation.deps.json
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\bin\Debug\net6.0\OOPEvaluation.runtimeconfig.json
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\bin\Debug\net6.0\OOPEvaluation.dll
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\bin\Debug\net6.0\OOPEvaluation.pdb
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.dll
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\refint\OOPEvaluation.dll
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.pdb
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\OOPEvaluation.genruntimeconfig.cache
+C:\Users\TRA\Desktop\TRA-Code\OOPEvaluation\obj\Debug\net6.0\ref\OOPEvaluation.dll
