@@ -22,10 +22,10 @@
             //Console.WriteLine(book2.GetBookInfo());
             //Console.WriteLine(book3.GetBookInfo());
 
-            book1.BorrowBook();
-            book2.BorrowBook();
-            book2.BorrowBook();
-            library.DisplayBooks();
+            //book1.BorrowBook(member1);
+            //book2.BorrowBook();
+            //book2.BorrowBook();
+            //library.DisplayBooks();
             //Console.WriteLine(book1.AvailableCopies);
 
             //book1.ReturnBook();
@@ -45,6 +45,10 @@
             library.AddingLibrarymember(member5);
 
             library.DisplayLibraryMember();
+            book1.BorrowBook(member1.MemberID);
+            book3.ReturnBook(member5.MemberID);
+            book4.BorrowBook(member5.MemberID);
+            library.DisplayBooks();
 
             //Console.WriteLine(member3.GetLibraryMemberInfo());
 
@@ -54,8 +58,8 @@
             //library.DisplayBooks();
             //adding books
             //Book book4 = new Book("D4", "DD", "Hamood", 89);
-           // library.AddingBook(book4);//Add books in the list
-           // Book book5 = new Book("E5", "EE", "Ali",34);
+            // library.AddingBook(book4);//Add books in the list
+            // Book book5 = new Book("E5", "EE", "Ali",34);
             //library.AddingBook(book5);
             //Console.WriteLine(library.DisplayBooks());
             //library.DisplayBooks();
@@ -65,7 +69,7 @@
             //library.AddingLibrarymember(lmember2);
             //library.DisplayLibraryMember();
 
-           
+
         }
     }
 
@@ -89,16 +93,16 @@
             return $" ISBN : {this.ISBN} || title :  {this.Title} || Author name : {this.Author} || Coppies available : {this.AvailableCopies} ";
         }
 
-        public void BorrowBook()
+        public void BorrowBook(object MemberID)
         {
             AvailableCopies--;
-            Console.WriteLine($" The book Borrowed ");
+            Console.WriteLine($" The book Borrowed by {MemberID}");
         }
 
-        public void ReturnBook()
+        public void ReturnBook(object MemberID)
         {
             AvailableCopies++;
-            Console.WriteLine("The book returned");
+            Console.WriteLine($"The book returned by {MemberID}");
         }
 
     }

@@ -8,7 +8,7 @@ namespace OOPEvaluation
 {
     public interface ILendable
     {
-        public void BorrowBook();
-        public void ReturnBook();
+        public void BorrowBook(object MemberID);
+        public void ReturnBook(object MemberID);
     }
 }
